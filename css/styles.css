@@ -8046,7 +8046,7 @@ textarea.form-control-lg {
 
 .text-success {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-success-rgb), var(--bs-text-opacity)) !important;
+  color: rgb(0 0 0), var(--bs-text-opacity) !important;
 }
 
 .text-info {
@@ -8127,7 +8127,7 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: rgb(107 5 5) !important;
+  background-color: rgb(77, 89, 73) !important;
 }
 
 .bg-secondary {
